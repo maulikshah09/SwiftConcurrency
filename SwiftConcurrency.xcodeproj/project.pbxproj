@@ -10,6 +10,7 @@
 		4D0FA1D12D6F598D000B80F5 /* TaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D02D6F598D000B80F5 /* TaskDemo.swift */; };
 		4D0FA1D32D6F9111000B80F5 /* AsyncLetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D22D6F9111000B80F5 /* AsyncLetDemo.swift */; };
 		4D0FA1D52D6F997F000B80F5 /* TaskgroupDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo.swift */; };
+		4D2B610A2D77877300AADBC2 /* CheckContinuationsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */; };
 		4D32A5232D6F0F6D00703C7C /* DownloadImgeAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32A5222D6F0F6D00703C7C /* DownloadImgeAsync.swift */; };
 		4D32A5252D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32A5242D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift */; };
 		4D32EF762D622BA1001EBF70 /* SwiftConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32EF742D622BA1001EBF70 /* SwiftConcurrencyApp.swift */; };
@@ -22,6 +23,7 @@
 		4D0FA1D02D6F598D000B80F5 /* TaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo.swift; sourceTree = "<group>"; };
 		4D0FA1D22D6F9111000B80F5 /* AsyncLetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemo.swift; sourceTree = "<group>"; };
 		4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskgroupDemo.swift; sourceTree = "<group>"; };
+		4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckContinuationsDemo.swift; sourceTree = "<group>"; };
 		4D32A5222D6F0F6D00703C7C /* DownloadImgeAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImgeAsync.swift; sourceTree = "<group>"; };
 		4D32A5242D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AsyncAwaitDemo(not understand).swift"; sourceTree = "<group>"; };
 		4D32EF572D622AF4001EBF70 /* SwiftConcurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftConcurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 				4D0FA1D02D6F598D000B80F5 /* TaskDemo.swift */,
 				4D0FA1D22D6F9111000B80F5 /* AsyncLetDemo.swift */,
 				4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo.swift */,
+				4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				4D0FA1D12D6F598D000B80F5 /* TaskDemo.swift in Sources */,
 				4D32A5252D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift in Sources */,
 				4D32EF7A2D622BBC001EBF70 /* DoTryCatchThrowDemo.swift in Sources */,
+				4D2B610A2D77877300AADBC2 /* CheckContinuationsDemo.swift in Sources */,
 				4D32EF762D622BA1001EBF70 /* SwiftConcurrencyApp.swift in Sources */,
 				4D32A5232D6F0F6D00703C7C /* DownloadImgeAsync.swift in Sources */,
 			);

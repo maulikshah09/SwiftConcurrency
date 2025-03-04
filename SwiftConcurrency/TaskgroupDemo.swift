@@ -30,7 +30,7 @@ class TaskGroupDataManager{
       return  try await withThrowingTaskGroup(of: UIImage.self) { group in
             
           var images: [UIImage] = []
-          var myurls = ["https://picsum.photos/200",
+          let myurls = ["https://picsum.photos/200",
                      "https://picsum.photos/200",
                      "https://picsum.photos/200",
                      "https://picsum.photos/200",
