@@ -19,6 +19,7 @@
 		4D32EF782D622BA1001EBF70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D32EF732D622BA1001EBF70 /* Assets.xcassets */; };
 		4D32EF7A2D622BBC001EBF70 /* DoTryCatchThrowDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32EF792D622BBC001EBF70 /* DoTryCatchThrowDemo.swift */; };
 		4D36452C2D789088007B3DFF /* ActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36452B2D789088007B3DFF /* ActorDemo.swift */; };
+		4D3645302D78A460007B3DFF /* GlobalActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4D32EF742D622BA1001EBF70 /* SwiftConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftConcurrencyApp.swift; sourceTree = "<group>"; };
 		4D32EF792D622BBC001EBF70 /* DoTryCatchThrowDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrowDemo.swift; sourceTree = "<group>"; };
 		4D36452B2D789088007B3DFF /* ActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDemo.swift; sourceTree = "<group>"; };
+		4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */,
 				4D2B610B2D77935500AADBC2 /* StructClassActorDemo.swift */,
 				4D36452B2D789088007B3DFF /* ActorDemo.swift */,
+				4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				4D32A5252D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift in Sources */,
 				4D32EF7A2D622BBC001EBF70 /* DoTryCatchThrowDemo.swift in Sources */,
 				4D2B610A2D77877300AADBC2 /* CheckContinuationsDemo.swift in Sources */,
+				4D3645302D78A460007B3DFF /* GlobalActorDemo.swift in Sources */,
 				4D36452C2D789088007B3DFF /* ActorDemo.swift in Sources */,
 				4D32EF762D622BA1001EBF70 /* SwiftConcurrencyApp.swift in Sources */,
 				4D32A5232D6F0F6D00703C7C /* DownloadImgeAsync.swift in Sources */,
