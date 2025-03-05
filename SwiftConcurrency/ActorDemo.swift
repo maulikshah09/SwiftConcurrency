@@ -28,7 +28,6 @@ class MYDataManager{
             print(Thread.current)
             commplitionHandler(self.data.randomElement())
         }
-      
     }
 }
 
@@ -40,12 +39,20 @@ actor MyActorDataManager{
     var data : [String] = []
     private let queue : DispatchQueue = .init(label: "com.example.myqueue")
     
+    var text : String? // non isolate
     
+    
+    // this is isolate method  it must be use async
     func getRandomData() -> String? {
         self.data.append(UUID().uuidString)
         
     print(Thread.current)
        return self.data.randomElement()
+    }
+    
+    // this is not isolated method it not used async
+    nonisolated func readData () -> String {
+        return "Maulik"
     }
 }
 
