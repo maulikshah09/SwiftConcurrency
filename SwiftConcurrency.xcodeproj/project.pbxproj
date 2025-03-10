@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4D0FA1D12D6F598D000B80F5 /* TaskDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D02D6F598D000B80F5 /* TaskDemo.swift */; };
 		4D0FA1D32D6F9111000B80F5 /* AsyncLetDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D22D6F9111000B80F5 /* AsyncLetDemo.swift */; };
-		4D0FA1D52D6F997F000B80F5 /* TaskgroupDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo.swift */; };
+		4D0FA1D52D6F997F000B80F5 /* TaskgroupDemo[main].swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo[main].swift */; };
 		4D2B610A2D77877300AADBC2 /* CheckContinuationsDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */; };
 		4D2B610C2D77935500AADBC2 /* StructClassActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B610B2D77935500AADBC2 /* StructClassActorDemo.swift */; };
 		4D32A5232D6F0F6D00703C7C /* DownloadImgeAsync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32A5222D6F0F6D00703C7C /* DownloadImgeAsync.swift */; };
@@ -20,12 +20,17 @@
 		4D32EF7A2D622BBC001EBF70 /* DoTryCatchThrowDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D32EF792D622BBC001EBF70 /* DoTryCatchThrowDemo.swift */; };
 		4D36452C2D789088007B3DFF /* ActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36452B2D789088007B3DFF /* ActorDemo.swift */; };
 		4D3645302D78A460007B3DFF /* GlobalActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */; };
+		4D3645462D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */; };
+		4D63FF212D7E8D3500DA68A5 /* SearchableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */; };
+		4D779B272D7D646000D794BC /* RefereshableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D779B262D7D646000D794BC /* RefereshableDemo.swift */; };
+		4DCD6AB82D7CD95B0091AB28 /* AsyncPublisherDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */; };
+		4DCD6ABA2D7CE4960091AB28 /* ReferenceBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4D0FA1D02D6F598D000B80F5 /* TaskDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDemo.swift; sourceTree = "<group>"; };
 		4D0FA1D22D6F9111000B80F5 /* AsyncLetDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLetDemo.swift; sourceTree = "<group>"; };
-		4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskgroupDemo.swift; sourceTree = "<group>"; };
+		4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo[main].swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TaskgroupDemo[main].swift"; sourceTree = "<group>"; };
 		4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckContinuationsDemo.swift; sourceTree = "<group>"; };
 		4D2B610B2D77935500AADBC2 /* StructClassActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActorDemo.swift; sourceTree = "<group>"; };
 		4D32A5222D6F0F6D00703C7C /* DownloadImgeAsync.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImgeAsync.swift; sourceTree = "<group>"; };
@@ -37,6 +42,11 @@
 		4D32EF792D622BBC001EBF70 /* DoTryCatchThrowDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoTryCatchThrowDemo.swift; sourceTree = "<group>"; };
 		4D36452B2D789088007B3DFF /* ActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDemo.swift; sourceTree = "<group>"; };
 		4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorDemo.swift; sourceTree = "<group>"; };
+		4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendableProtocolDemo(not understand).swift"; sourceTree = "<group>"; };
+		4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableDemo.swift; sourceTree = "<group>"; };
+		4D779B262D7D646000D794BC /* RefereshableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefereshableDemo.swift; sourceTree = "<group>"; };
+		4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherDemo.swift; sourceTree = "<group>"; };
+		4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceBootCamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,11 +95,16 @@
 				4D32A5242D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift */,
 				4D0FA1D02D6F598D000B80F5 /* TaskDemo.swift */,
 				4D0FA1D22D6F9111000B80F5 /* AsyncLetDemo.swift */,
-				4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo.swift */,
+				4D0FA1D42D6F997F000B80F5 /* TaskgroupDemo[main].swift */,
 				4D2B61092D77877200AADBC2 /* CheckContinuationsDemo.swift */,
 				4D2B610B2D77935500AADBC2 /* StructClassActorDemo.swift */,
 				4D36452B2D789088007B3DFF /* ActorDemo.swift */,
 				4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */,
+				4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */,
+				4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */,
+				4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */,
+				4D779B262D7D646000D794BC /* RefereshableDemo.swift */,
+				4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -167,8 +182,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCD6ABA2D7CE4960091AB28 /* ReferenceBootCamp.swift in Sources */,
+				4D779B272D7D646000D794BC /* RefereshableDemo.swift in Sources */,
 				4D0FA1D32D6F9111000B80F5 /* AsyncLetDemo.swift in Sources */,
-				4D0FA1D52D6F997F000B80F5 /* TaskgroupDemo.swift in Sources */,
+				4D0FA1D52D6F997F000B80F5 /* TaskgroupDemo[main].swift in Sources */,
 				4D0FA1D12D6F598D000B80F5 /* TaskDemo.swift in Sources */,
 				4D32A5252D6F22C700703C7C /* AsyncAwaitDemo(not understand).swift in Sources */,
 				4D32EF7A2D622BBC001EBF70 /* DoTryCatchThrowDemo.swift in Sources */,
@@ -177,6 +194,9 @@
 				4D36452C2D789088007B3DFF /* ActorDemo.swift in Sources */,
 				4D32EF762D622BA1001EBF70 /* SwiftConcurrencyApp.swift in Sources */,
 				4D32A5232D6F0F6D00703C7C /* DownloadImgeAsync.swift in Sources */,
+				4D3645462D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift in Sources */,
+				4DCD6AB82D7CD95B0091AB28 /* AsyncPublisherDemo.swift in Sources */,
+				4D63FF212D7E8D3500DA68A5 /* SearchableDemo.swift in Sources */,
 				4D2B610C2D77935500AADBC2 /* StructClassActorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
