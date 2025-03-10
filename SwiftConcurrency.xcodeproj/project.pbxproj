@@ -22,6 +22,7 @@
 		4D3645302D78A460007B3DFF /* GlobalActorDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */; };
 		4D3645462D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */; };
 		4D63FF212D7E8D3500DA68A5 /* SearchableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */; };
+		4D63FF232D7F1A6600DA68A5 /* PhotoPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF222D7F1A6600DA68A5 /* PhotoPickerDemo.swift */; };
 		4D779B272D7D646000D794BC /* RefereshableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D779B262D7D646000D794BC /* RefereshableDemo.swift */; };
 		4DCD6AB82D7CD95B0091AB28 /* AsyncPublisherDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */; };
 		4DCD6ABA2D7CE4960091AB28 /* ReferenceBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */; };
@@ -44,6 +45,7 @@
 		4D36452F2D78A460007B3DFF /* GlobalActorDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalActorDemo.swift; sourceTree = "<group>"; };
 		4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendableProtocolDemo(not understand).swift"; sourceTree = "<group>"; };
 		4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableDemo.swift; sourceTree = "<group>"; };
+		4D63FF222D7F1A6600DA68A5 /* PhotoPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerDemo.swift; sourceTree = "<group>"; };
 		4D779B262D7D646000D794BC /* RefereshableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefereshableDemo.swift; sourceTree = "<group>"; };
 		4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherDemo.swift; sourceTree = "<group>"; };
 		4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceBootCamp.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */,
 				4D779B262D7D646000D794BC /* RefereshableDemo.swift */,
 				4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */,
+				4D63FF222D7F1A6600DA68A5 /* PhotoPickerDemo.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 				4D3645462D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift in Sources */,
 				4DCD6AB82D7CD95B0091AB28 /* AsyncPublisherDemo.swift in Sources */,
 				4D63FF212D7E8D3500DA68A5 /* SearchableDemo.swift in Sources */,
+				4D63FF232D7F1A6600DA68A5 /* PhotoPickerDemo.swift in Sources */,
 				4D2B610C2D77935500AADBC2 /* StructClassActorDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
