@@ -9,7 +9,7 @@ import SwiftUI
 import PhotosUI
 
 @MainActor final class PhotoPickerViewModel : ObservableObject{
-    @Published private(set) var selectedImage : UIImage? = nil
+    @Published private(set) var selectedImage : UIImage? = nil // <- mulitiple then array
     @Published var imageSelection : PhotosPickerItem? = nil{
         didSet{
             setImage(from: imageSelection)
@@ -17,7 +17,7 @@ import PhotosUI
     }
     
     
-    private func setImage(from selection : PhotosPickerItem?){
+    private func setImage(from selection : PhotosPickerItem?){ // also array
         guard let selection else { return }
         Task{
             if let data = try? await selection.loadTransferable(type: Data.self) {

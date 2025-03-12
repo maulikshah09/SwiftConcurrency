@@ -23,6 +23,8 @@
 		4D3645462D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */; };
 		4D63FF212D7E8D3500DA68A5 /* SearchableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */; };
 		4D63FF232D7F1A6600DA68A5 /* PhotoPickerDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF222D7F1A6600DA68A5 /* PhotoPickerDemo.swift */; };
+		4D63FF252D7F675600DA68A5 /* AsncStreamDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF242D7F675600DA68A5 /* AsncStreamDemo.swift */; };
+		4D63FF272D7F746000DA68A5 /* ObservableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D63FF262D7F746000DA68A5 /* ObservableDemo.swift */; };
 		4D779B272D7D646000D794BC /* RefereshableDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D779B262D7D646000D794BC /* RefereshableDemo.swift */; };
 		4DCD6AB82D7CD95B0091AB28 /* AsyncPublisherDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */; };
 		4DCD6ABA2D7CE4960091AB28 /* ReferenceBootCamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */; };
@@ -46,6 +48,8 @@
 		4D3645452D78D2B2007B3DFF /* SendableProtocolDemo(not understand).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SendableProtocolDemo(not understand).swift"; sourceTree = "<group>"; };
 		4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableDemo.swift; sourceTree = "<group>"; };
 		4D63FF222D7F1A6600DA68A5 /* PhotoPickerDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerDemo.swift; sourceTree = "<group>"; };
+		4D63FF242D7F675600DA68A5 /* AsncStreamDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsncStreamDemo.swift; sourceTree = "<group>"; };
+		4D63FF262D7F746000DA68A5 /* ObservableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableDemo.swift; sourceTree = "<group>"; };
 		4D779B262D7D646000D794BC /* RefereshableDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefereshableDemo.swift; sourceTree = "<group>"; };
 		4DCD6AB72D7CD95B0091AB28 /* AsyncPublisherDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncPublisherDemo.swift; sourceTree = "<group>"; };
 		4DCD6AB92D7CE4960091AB28 /* ReferenceBootCamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceBootCamp.swift; sourceTree = "<group>"; };
@@ -108,6 +112,8 @@
 				4D779B262D7D646000D794BC /* RefereshableDemo.swift */,
 				4D63FF202D7E8D3500DA68A5 /* SearchableDemo.swift */,
 				4D63FF222D7F1A6600DA68A5 /* PhotoPickerDemo.swift */,
+				4D63FF242D7F675600DA68A5 /* AsncStreamDemo.swift */,
+				4D63FF262D7F746000DA68A5 /* ObservableDemo.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -186,6 +192,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DCD6ABA2D7CE4960091AB28 /* ReferenceBootCamp.swift in Sources */,
+				4D63FF272D7F746000DA68A5 /* ObservableDemo.swift in Sources */,
+				4D63FF252D7F675600DA68A5 /* AsncStreamDemo.swift in Sources */,
 				4D779B272D7D646000D794BC /* RefereshableDemo.swift in Sources */,
 				4D0FA1D32D6F9111000B80F5 /* AsyncLetDemo.swift in Sources */,
 				4D0FA1D52D6F997F000B80F5 /* TaskgroupDemo[main].swift in Sources */,
@@ -342,7 +350,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,7 +379,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
